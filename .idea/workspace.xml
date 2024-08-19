@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9625fa44-3bf1-4f57-abea-3eb7e7c4ffd4" name="Changes" comment="Tabela User e application properties" />
+    <list default="true" id="9625fa44-3bf1-4f57-abea-3eb7e7c4ffd4" name="Changes" comment="Tabela User e application properties">
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/constents/LibraryConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/rest/UserRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/restImpl/UserRestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/servicelmpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/utlis/LibraryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,27 +40,29 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2kFWgB7OtwM69WERsWwcUHX5ZJh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LibraryManagementSystemApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jnuno/IdeaProjects/LibraryManagement-Sprinboot-Angular-",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LibraryManagementSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jnuno/IdeaProjects/LibraryManagement-Sprinboot-Angular-&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jnuno\IdeaProjects\LibraryManagement-Sprinboot-Angular-" />
@@ -108,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722884234507</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tabela User e application properties">
+      <option name="closed" value="true" />
+      <created>1722884337907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722884337907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tabela User e application properties">
+      <option name="closed" value="true" />
+      <created>1722884631236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722884631236</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

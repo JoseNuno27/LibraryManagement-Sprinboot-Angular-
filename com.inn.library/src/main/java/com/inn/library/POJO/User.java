@@ -11,6 +11,8 @@ import org.hibernate.annotations.DynamicUpdate;
 import java.io.Serial;
 import java.io.Serializable;
 
+
+@NamedQuery(name ="User.findByEmailId" , query = "select u from User u where u.Email=:email ")
 @Data
 @Entity
 @DynamicUpdate
@@ -40,7 +42,7 @@ public class User implements Serializable {
 
     @Getter
     @Column(name = "email")
-    private String email;
+    private String Email;
 
     @Column(name = "status")
     private String status;

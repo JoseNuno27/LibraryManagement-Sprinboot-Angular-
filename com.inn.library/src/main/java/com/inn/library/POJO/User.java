@@ -4,7 +4,6 @@ package com.inn.library.POJO;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Getter;
-import lombok.Setter;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 
@@ -52,4 +51,6 @@ public class User implements Serializable {
     private String role;
 
 
+    public User() {
+    }
 }

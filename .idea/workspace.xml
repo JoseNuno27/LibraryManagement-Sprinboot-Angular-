@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9625fa44-3bf1-4f57-abea-3eb7e7c4ffd4" name="Changes" comment="JWT Authentication">
-      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/models/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/models/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/models/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/repositories/AppUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/services/AppUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/SecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/servicelmpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/servicelmpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.inn.library/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/CustomerUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/JWT/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/POJO/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/rest/UserRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/restImpl/UserRestImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/java/com/inn/library/servicelmpl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.inn.library/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/com.inn.library/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>

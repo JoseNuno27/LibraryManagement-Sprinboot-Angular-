@@ -1,7 +1,9 @@
 package com.inn.library.services;
 
 import com.inn.library.models.AppUser;
+import com.inn.library.models.Role;
 import com.inn.library.repositories.AppUserRepository;
+import com.inn.library.repositories.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -16,6 +18,11 @@ import java.util.List;
 public class AppUserService implements UserDetailsService {
 
     private final AppUserRepository repo;
+    @Autowired
+    private RoleRepository roleRepository;
+
+    @Autowired
+    private AppUserRepository appUserRepository;
 
     @Autowired
     public AppUserService(AppUserRepository repo) {
@@ -42,5 +49,17 @@ public class AppUserService implements UserDetailsService {
             throw new UsernameNotFoundException("User not found");
         }
         return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), new ArrayList<>());
+    }
+    public void createUserWithRole(String username, String roleName) {
+        // Buscar o objeto Role pelo nome
+        Role role = roleRepository.findByName(roleName);
+
+        // Criar o usuário
+        AppUser user = new AppUser();
+        user.setUsername(username);
+        user.setRole(role);
+
+        // Salvar o usuário
+        appUserRepository.save(user);
     }
 }

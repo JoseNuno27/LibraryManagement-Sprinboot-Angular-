@@ -1,6 +1,7 @@
 package com.inn.library.models;
 
 import jakarta.persistence.*;
+import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
@@ -25,7 +26,10 @@ public class AppUser {
     private String password;
     private String phone;
     private String address;
-    private String role;
+    @Getter
+    @ManyToOne
+    @JoinColumn(name = "role_id")
+    private Role role;
 
     public int getId() {
         return id;
@@ -57,10 +61,6 @@ public class AppUser {
 
     public String getAddress() {
         return address;
-    }
-
-    public String getRole() {
-        return role;
     }
 
     public Date getCreatedAt(Date date) {
